@@ -57,6 +57,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  1. WC3 constanteerde veel fouten. Op een andere website kon het niet 
+  gecontroleerd worden om dat die functie geblokeerd was met de foutcode 403 Forbidden.
+
+  2. Er zit niet genoeg ruimte tussen interactieve items om een scroll gebied te creëren.
+
+  3. Niet alle images hebben een alt attribute.
+
+  4. De media die wordt getoont wordt op autoplay afgespeeld en loopt in een loep.
+
+  5. De video's worden niet onderbouwd met captions. 
+
+  6. Transcrips zijn niet aanwezig. 
+
+  7. Er is geen skip link (controls).
+
+  8. Dark en lightmodes worden niet ondersteund.
+
+  9. High contrast mode worden niet ondersteund.
+
+  10. De tekst kan niet vergroot worden naar 200%.
 
 </details>
 
