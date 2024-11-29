@@ -110,6 +110,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Voor mij was het aan het begin lastig om het onderscheid te maken tussen een section en een article, Wanneer gebruik je wat en in welke situaties gebruik je articles of een ul.
+
+  Tijdens de les heb ik meerdere aantekeningen en oefeningen gedaan die kunnen helpen bij het maken van de website.
+
+  Doordat we tijdens de les ook een opzet hebben maken van de html op de pagina was het al wat makkelijker om te beginnen met de code.
+
+  Hier een voorbeeld van de opzet:  <img src="" width="375px" alt="HTML ontleding van twee Action pagina's"> <!--Voeg plaatje toe van Figma>
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -124,10 +132,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1 Uitleg over het verschil tussen <sections> & <article> <!--<section> = container & <article> = Thema's of contet dat verplaatst kan worden op de website>
+  - punt 2 H1 maken van het logo (homepage) alt"Action" <!--De H1 op de landingspagina is in mijn geval het logo omdat mensen met een screenreader dat dan lezen of horen>
+  - punt 3 In de footer aanmelden <Form> (button geen link) <!--Een link verwijst naar een ander pagina & een butten verstuurd data>
+  - 
 
 </details>
 
@@ -249,8 +257,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.action.com/nl-nl/
+  2. https://www.w3schools.com/howto/howto_css_menu_icon.asp 
+  3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  4. ...
 
 </details>
