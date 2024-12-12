@@ -3,13 +3,17 @@
 	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Jayden Karg">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Action</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/action-logo-titel.png">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,10 +25,10 @@
 		<button><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id=" Heart_01"><path id="Vector" d="M12 21.0001C11.8325 21.0001 11.6655 20.9581 11.5142 20.8741C11.126 20.6583 2 15.5138 2 9.00006C2 5.33456 4.21776 3.57529 6.29346 3.15149C8.46436 2.71109 10.6211 3.55333 12 5.26373C13.3799 3.55233 15.5371 2.71199 17.707 3.15149C19.7822 3.57529 22 5.33456 22 9.00006C22 15.5138 12.874 20.6583 12.4854 20.8741C12.335 20.9581 12.167 21.0001 12 21.0001ZM7.3999 5.04108C7.1558 5.04108 6.91846 5.06499 6.69336 5.11139C5.00676 5.45569 4 6.90926 4 9.00006C4 13.5846 10.1968 17.7286 12 18.837C13.8037 17.7286 20 13.5846 20 9.00006C20 6.90926 18.9932 5.45569 17.3066 5.11139C15.8252 4.81059 13.8281 5.45654 12.9199 7.58594C12.7627 7.95464 12.4004 8.19385 12 8.19385C11.5991 8.19385 11.2373 7.95454 11.0801 7.58594C10.3105 5.78034 8.7554 5.04108 7.3999 5.04108Z" fill="#54585a"></path></g></svg></button>
 	</header>
 
-	<label>
-		zoeken
-		<input type="search" placeholder="Waar ben je naar op zoek?">
-	</label>
+	<form>
+        <input type="text" placeholder="Zoek iets...">
+        
+    </form>
 
 	<section>
 		<img src="images/kerstmis_decoratie.jpg" alt="Ouders met kinderen die de kerstboom versieren ">
@@ -36,7 +40,7 @@
 			kerstballen. Jouw kerstboom, jouw creatie. Maar 
 			dan wel met onze heerlijk lage prijzen!
 			</p>
-			<a href="#">Bekijk alles</a>
+			<a href="#" aria-label="Bekijk de kerstbomen voor de allerlaagste prijs">Bekijk alles</a>
 	</section>
 
 	<section>
@@ -45,32 +49,27 @@
 			<li>
 				<a href="https://www.action.com/nl-nl/c/wonen/">
 					<img src="images/wonen.avif" alt="Drie kaarsen">
-					<h3>Wonen</h3>
+					<p>Wonen</p>
 				</a>
 			</li>	
-		</ul>
+		
 
-		<ul>
 			<li>
 				<a href="https://www.action.com/nl-nl/c/wonen/">
 					<img src="images/keuken.avif" alt="stoofpot met groente">
-					<h3>Keuken</h3>
+					<p>Keuken</p>
 				</a>
 				
 			</li>	
-		</ul>
 
-		<ul>
 			<li>
 				<a href="https://www.action.com/nl-nl/c/wonen/"><img src="images/huishouden.avif" alt="Schoonmaakemmer met gele doek"></a>
-				<a href="https://www.action.com/nl-nl/c/wonen/"><h3>Huishouden</h3></a>
+				<a href="https://www.action.com/nl-nl/c/wonen/"><p>Huishouden</p></a>
 			</li>	
-		</ul>
 
-		<ul>
 			<li>
 				<a href="https://www.action.com/nl-nl/c/wonen/"><img src="images/kantoor&school.avif" alt="Drie schriften"></a>
-				<a href="https://www.action.com/nl-nl/c/wonen/"><h3>Kantoor & school</h3></a>
+				<a href="https://www.action.com/nl-nl/c/wonen/"><p>Kantoor & school</p></a>
 			</li>	
 		</ul>
 	</section>
@@ -78,47 +77,57 @@
 	<section>
 		<h2>Weekactie</h2>
 		<p>20-11 t/m 26-11</p>
-		<a href="https://www.action.com/nl-nl/p/3208504/glow-in-the-dark-diamond-painting/">
-			<article>
-				<p>Weekactie</p>
-				<img src="images/diamond-painting.avif" alt="Canvas diamond painting">
-				<h3>Glow-in-the-dark diamond painting</h3>
-				<p>Diverse varianten</p>
-				<p>1,49/st</p>
-			</article>
-		</a>
+		<ul>
+			<li>
+			<a href="https://www.action.com/nl-nl/p/3208504/glow-in-the-dark-diamond-painting/">
+				<article>
+					<p>Weekactie</p>
+					<img src="images/diamond-painting.avif" alt="Canvas diamond painting">
+					<h3>Glow-in-the-dark diamond painting</h3>
+					<p>Diverse varianten</p>
+					<p>1,49</p>
+				</article>
+			</a>
+			</li>
 
-		<a href="https://www.action.com/nl-nl/p/3205031/disney-stitch-knuffel/">
-			<article>
-				<p>Weekactie</p>
-				<img src="images/disney-stitch-knuffel.avif" alt="Disney Stitch knuffel">
-				<h3>Disney Stitch knuffel</h3>
-				<p>25 cm | diverse kleuren</p>
-				<p>5,98/st</p>
-			</article>
-		</a>
+			<li>
+			<a href="https://www.action.com/nl-nl/p/3205031/disney-stitch-knuffel/">
+				<article>
+					<p>Weekactie</p>
+					<img src="images/disney-stitch-knuffel.avif" alt="Disney Stitch knuffel">
+					<h3>Disney Stitch knuffel</h3>
+					<p>25 cm | diverse kleuren</p>
+					<p>5,98</p>
+				</article>
+			</a>
+			</li>
 
-		<a href="https://www.action.com/nl-nl/p/3206479/ferm-ax-power-accuboormachine/">
-			<article>
-				<p>Weekactie</p>
-				<img src="images/ferm-ax-power-accuboormachine.avif" alt="Accuboormachine">
-				<h3>FERM AX Power accuboormachine</h3>
-				<p>12 volt</p>
-				<p>24,95/st</p>
-			</article>
-		</a>
+			<li>
+			<a href="https://www.action.com/nl-nl/p/3206479/ferm-ax-power-accuboormachine/">
+				<article>
+					<p>Weekactie</p>
+					<img src="images/ferm-ax-power-accuboormachine.avif" alt="Accuboormachine">
+					<h3>FERM AX Power accuboormachine</h3>
+					<p>12 volt</p>
+					<p>24,95</p>
+				</article>
+			</a>
+			</li>
 
-		<a href="https://www.action.com/nl-nl/p/3208168/the-grinch-gezichtsmasker/">
-			<article>
-				<p>Weekactie</p>
-				<img src="images/the-grinch-gezichtsmasker.avif" alt="Grinch gezichtsmasker">
-				<h3>The Grinch gezichtsmasker</h3>
-				<p>Diverse varianten</p>
-				<p>0,79/st</p>
-			</article>
-		</a>
-
+			<li>
+			<a href="https://www.action.com/nl-nl/p/3208168/the-grinch-gezichtsmasker/">
+				<article>
+					<p>Weekactie</p>
+					<img src="images/the-grinch-gezichtsmasker.avif" alt="Grinch gezichtsmasker">
+					<h3>The Grinch gezichtsmasker</h3>
+					<p>Diverse varianten</p>
+					<p>0,79</p>
+				</article>
+			</a>
+			</li>
+	</ul>
 		<a href="https://www.action.com/nl-nl/weekactie/">Bekijk alle actie producten</a>
+	
 	</section>
 
 	<section>
@@ -135,7 +144,7 @@
 			<li><a href="https://www.instagram.com/reel/DCMtyUXoq14/"><video src="images/sint-kerstcadeau-tips.mp4"></video></a></li>
 			<li><a href="https://www.instagram.com/reel/DCCkQ55KgcA/"><video src="images/diy-gift-set.mp4"></video></a></li>
 		</ul>
-		<a href="https://www.action.com/nl-nl/inspiratie-action-fans/"><p>Bekijk alles</p></a>
+		<a href="https://www.action.com/nl-nl/inspiratie-action-fans/" aria-label="Bekijk alle social media posts hier"><p>Bekijk alles</p></a>
 	</section>
 
 	<section>
@@ -149,7 +158,7 @@
 				jong en oud. Deze feestdagen maak je iedereen 
 				blij, voor de allerlaagste prijs. 
 			</p>
-			<a href="https://www.action.com/nl-nl/cadeaufolder/">Bekijk hem hier</a>
+			<a href="https://www.action.com/nl-nl/cadeaufolder/" aria-label="Bekijk de Action folder hier">Bekijk hem hier</a>
 		</article>
 
 		<article>
@@ -170,52 +179,27 @@
 				Met de Action app regent het prijzen tijdens het shoppen. 
 				Spin en win bij elke aankoop.
 			</p>
-			<a href="https://www.action.com/nl-nl/spin-en-win/">Lees meer</a>
+			<a href="https://www.action.com/nl-nl/spin-en-win/" aria-label="Lees meer over de spin-en-win actie">Lees meer</a>
 		</article>
 	</section>
 
 
 	<Footer>
-	<p>Altijd als eerste op de hoogte</p>
+	<p>
+		<strong>Altijd als eerste op de hoogte</strong>
+	</p>
 	<p>
 		Meld je aan voor onze nieuwsbrief vol met verrassende 
 		acties en de nieuwste producten!
 	</p>
 	<section>
-		<form action="">
-			<label for id="naam"></label>
-			<input type="text" id="naam">
-		</form>
-		<button>Inschrijven voor de nieuwsbrief</button>
-		
+		<form action="email">Nieuwsbrief</form>
+		<input type="email" id="email" name="email" placeholder="Enter email">
+		<!--korte hint of voorbeeldtekst weer te geven in een invoerveld, voordat de gebruiker iets invoert.-->
+		<button type="submit">Inschrijven</button>
 	</section>
 
-	<section>
-		<p>Klantenservice</p>
-		<ul>
-			<li><a href="https://www.action.com/nl-nl/klantenservice/"><p>Klantenservice</p></a></li>
-			<li><a href="https://www.action.com/nl-nl/klantenservice/veelgestelde-vragen/"><p>Veelgestelde vragen</p></a></li>
-			<li><a href="https://www.action.com/nl-nl/winkels/"><p>Winkels</p></a></li>
-			<li><a href="https://www.action.com/nl-nl/klantenservice/belangrijke-productinformatie/"><p>Belangrijke productinformatie</p></a></li>
-			<li><a href="https://www.action.com/nl-nl/saldo-cadeaukaart-checken/"><p>Saldo cadeaukaart</p></a></li>
-		</ul>
-	</section>
-
-	<section>
-		<p>Over Action</p>
-		<ul>
-			<li><a href="https://www.action.com/nl-nl/app/"><p>Download de Action app</p></a></li>
-			<li><a href="https://www.action.com/nl-nl/over-ons/"><p>Over ons</p></a></li>
-			<li><a href="https://nl.action.jobs/"><p>Werken bij Action</p></a></li>
-			<li><a href="https://www.action.com/nl-nl/newsroom/"><p>Persinformatie</p></a></li>
-			<li><a href="https://www.action.com/nl-nl/duurzaamheid/"><p>Duurzaamheid</p></a></li>
-			<li><a href="https://www.action.com/nl-nl/over-action/winkelruimte-gezocht/"><p>Winkelruimte gezocht</p></a></li>
-			<li><a href="https://www.action.com/nl-nl/eigen-merken/"><p>Eigen merk</p></a></li>
-			<li><a href="https://www.action.com/nl-nl/prijswinnaars/"><p>Prijswinnaars</p></a></li>
-		</ul>
-	</section>
 </Footer>
-	
 	<script defer src="scripts/script.js"></script>
 </body>
 	
