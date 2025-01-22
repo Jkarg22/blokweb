@@ -208,8 +208,8 @@ section:nth-of-type(1) h2 {
     margin: 1em;
     display: grid;
     position: absolute;
-    top: 61px;
-    right: 25.8em;
+    top: 73.3px;
+    right: 355px;
     background-color: var(--color-button);
     color: var(--color-button-text);
     font-weight: 500;
@@ -223,8 +223,8 @@ section:nth-of-type(1) p {
     margin: 1em;
     display: grid;
     position: absolute;
-    top: 61px;
-    right: 186px;
+    top: 73.3px;
+    right: 237px;
     background-color: var(--background-color-white);
     color: var(--color-text-prijs);
     border-color: var(--color-button);
