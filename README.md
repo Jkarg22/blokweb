@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  (https://www.action.com/nl-nl/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  www.action.com   
   <img src="readme-images/home_page_action.png" width="375px" alt="homepagina Action">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Ledfiguur  
   <img src="readme-images/persoonlijke_verzorging_action.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -88,13 +88,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets-1:2.jpg" width="375px" alt="breakdown van de hele pagina">
+
+  <img src="readme-images/breakdownschets-2:2.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -126,7 +128,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  |...             | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
@@ -151,6 +153,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Ik had moeite met het maken van de tweede pagina, omdat ik twijfelde of ik een nieuwe css stylesheet moest maken of de zelfde moest gebruiken. Uiteindelijk heb ik de css behouden en geen nieuwe aan gemaakt. Toen liep ik tegen het probleem aan dat sommige elementen veranderden op mijn homepagina. Uiteindelijk heb ik ervoor gekozen om een nieuw css bestand aan te maken. <!-- 2.css>
+
+  <img src="readme-images/css-2e-pagina.png" width="375px" alt="Het onderdeel waar ik moeite mee had">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -165,9 +170,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - De juiste section benoemen
+  - Hulp bij het stijlen van mijn 2e section
+  - Opmaak van de tekst veranderen
 - ...
 
 </details>
@@ -184,6 +189,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  1. Website kan gevalideerd worden
+  2. De visible focus style is duidelijker zichtbaar 
+  3. Ruimte tussen interactieve elementen
+  4. Alle images hebben een alt atribute gekregen of een arial-label
+  5. Dark and light mode toegevoegd
+  6. Niet alle punten waren voor mij van toepassing
+  7. Er is geen skip link (controls).
+
 </details>
 
 
@@ -197,6 +210,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+  De tweede pagina ging sneller dan de eerste, dit kwam voornamelijk omdat ik al wat codes in de vingers had van de vorige pagina die in mijn ogen complexer was dan de twee. Veel elementen kwamen terug zoals de afbeeldingen in de vorm van een carousel, de buttons, navigatie en de footer. 
+
+  Het enigste onderdeel waar ik wat moeite mee had was de h2 specificatie. Na veel uitgeprobeerd te hebben is het mij toch gelukt om het ongeveer hetzelfde eruit te laten zien als de oorspronkelijke website. Ik heb hier gebruik gemaakt van de border-bottom-style: dashed;. Het is mij niet gelukt om ruimte te krijgen tussen twee woorden (h2 specificatie) hiervoor heb ik AI geraadpleegd. De bron is vervemeld met de bijbehorende prompt en link naar de chat. 
+
+  Ook heb ik een light en darkmodeknop toegevoed. Als ik meer tijd had zij ik deze ook werkend hebben gemaakt met javascript. Nu werkt de code ook maar moet ik hem handmatig aanpassen door in de body div="darkmode" toe te passen. Tot slot heb ik de :focus-visible vervangen door een rode zichtbare kleur.
 
 
   ### Agenda voor meeting
@@ -212,10 +231,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Pagina op github zetten
+  - Beginnen aan de tweede pagina
+  - Puntjes op de i zetten
+  - Verslag bijhouden voor het eindgesprek
 
 </details>
 
@@ -229,19 +248,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/homepagina.png" width="375px" alt="Pagina 1">
+  <img src="readme-images/ledfiguur.png" width="375px" alt="Pagina 2">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/clip-path.png" width="375px" alt="Clip-path">
+  De vorm leek op het eerste oog heel ingewikkeld om te maken, nadat ik onderzoek heb gedaan heeft een studentenassistent mij verwezen naar een webiste waarbij ik de vorm zelf kon maken en de code kon kopieren in mijn css.
 
+  <img src="readme-images/hamburger-menu.png" width="375px" alt="Hamburger menu">
+  <img src="readme-images/hamburgermenu-uitgeklapt.png" width="375px" alt="Uitgeklapte hamburger menu">
+  Ik heb geleerd hoe je een hamburger menu kunt maken met javascript waar ik best veel moeite mee heb. 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/specificatie_ledfiguur.png" width="375px" alt="Specificatie">
+  Het was lastig om de letters in bold rechts aligned te krijgen, hierbij heb ik hulp ingeschakeld van ChatGPT maar zonder resultaat. Ik heb geprobeerd om ze uit elkaar te halen met <br> maar dat heeft ook niet gewerkt. Uiteindelijk heb ik nog geprobeerd om met spaties te werken maar ook zonder resultaat.
 </details>
 
 
@@ -257,9 +281,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. https://www.action.com/nl-nl/
-  2. https://www.w3schools.com/howto/howto_css_menu_icon.asp 
-  3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-  4. ...
-
+  1. https://www.action.com/nl-nl/ <!-- Eerste pagina>
+  2. https://www.w3schools.com/howto/howto_css_menu_icon.asp <!-- Instructie menu>
+  3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <!-- Flexbox>
+  4. https://bennettfeely.com/clippy/ <!-- Clip-path>
+  5. https://www.action.com/nl-nl/p/3208466/ledfiguur/ <!-- Tweede pagina>
+  6. Studentenassistent
+  7. https://codepen.io/your-work <!-- Mijn eigen werk die ik al eerder heb gemaakt, hier kon ik de codes terug vinden>
+  8. https://github.com/ 
+  9. https://chatgpt.com/share/6762b2b5-20f8-8013-9219-c9374ae82048 <!-- Prompt: "hoe kan ik space krijgen tussen specifieke woorden die ik wil in css"> 
+  10. https://www.action.com/nl-nl/c/wonen/
+  11. https://www.action.com/nl-nl/c/keuken/
+  12. https://www.action.com/nl-nl/c/huishouden/
+  13. https://www.action.com/nl-nl/c/kantoor--school/
+  14. https://fonts.google.com/icons?selected=Material+Symbols+Outlined:light_mode:FILL@1;wght@400;GRAD@0;opsz@24&icon.query=light&icon.size=24&icon.color=%235f6368 
 </details>
