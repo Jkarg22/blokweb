@@ -1,0 +1,653 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+form:nth-of-type(1) button {
+	background: #FF8100;
+}
+
+
+
+
+/* 
+color: #fff;
+background-color: #ff8100;
+padding: 0.8em 0.8em;
+border-radius: 50px;
+margin-left: 4em; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+body {
+	font-family: "Ubuntu", sans-serif;
+}
+p {
+	font-weight: 100;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+header nav {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	justify-content: space-between;
+	padding: 1rem;
+	width: 100%;
+}
+  
+header nav button span {
+	display: block;
+	width: 100%;
+	height: 3px;
+	border-radius: 1rem;
+	background-color: #fff;
+}
+  
+header nav button {
+	aspect-ratio: 1;
+	width: 3.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .5rem;
+	flex-direction: column;
+	background-color: transparent;
+	border: none;
+}
+  
+main {
+	position: relative;
+	overflow: hidden;
+}
+  
+main nav {
+	width: 100vw;
+	height: 100vh;
+	padding: 1rem;
+	background-color: #001489;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	transform: translateX(100vw);
+	transition: .2s;
+	color: white;
+}
+  
+main nav.active {
+	transform: translateX(0);
+}
+
+nav li a {
+	color: #fff;
+}
+
+main nav div button {
+	width: 2.5rem;
+	aspect-ratio: 1/1;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border: none;
+}
+  
+main nav div button span {
+	position: absolute; 
+	width: 80%;
+	height: 2px;
+	background-color: white;
+	transform-origin: center; 
+  
+}
+  
+main nav div button span:nth-of-type(1) {
+	transform: rotate(45deg); 
+}
+  
+main nav div button span:nth-of-type(2) {
+	transform: rotate(-45deg); 
+}
+  
+main nav ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 1rem 0;
+}
+  
+  
+main nav div {
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 img {
+	width: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+form:nth-of-type(1) input {
+	width: 5em;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	background-color: #F3F4F6;
+  	border: none;
+  	padding: 0.8em;
+	margin-bottom: 1em;
+ 	border-radius: 50px;
+}
+
+
+
+/* jouw code */
+/* Header */
+img, 
+video {
+	max-width: 100%;
+}
+
+/* Header */
+
+
+
+
+/* container 1 */
+section:nth-of-type(1) {
+	position: relative;
+  	padding-block-end: 1em;
+	  z-index: -1;
+}
+
+/* h2 */
+section:nth-of-type(1) h2 {
+	position: absolute;
+	color: var(--color-background);
+	background-color: #001489;
+	top: 4.6em;
+	left: 30px;
+	padding: 5px 1em;
+	clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%); /*https://bennettfeely.com/clippy/ <!-- Clip-path*/
+	border-radius: 3px;
+	z-index: 2;
+}
+/* Tekst onder h2 */
+section:nth-of-type(1) p:nth-of-type(1) {
+	position: absolute;
+	color: #fff;
+	background-color: #2EBAE7;
+	top: 9.5em;
+	left: 20px;
+	padding: 5px 1em;
+	clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+	border-radius: 3px;
+	z-index: 1;
+	font-weight: normal;
+}
+/* Tekst */
+section:nth-of-type(1) p:nth-of-type(2) {
+	color: #fff;
+  	background-color: #839c35;
+  	clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+  	padding: 5em 1em 5em 1em;
+  	margin-block-start: -4em;
+}
+
+/* Button */
+section:nth-of-type(1) a {
+	color: #F3F4F6;
+	background-color: rgb(255, 129, 0);
+	padding: 0.8em 8.1em;
+	border-radius: 50px;
+	position: absolute;
+	top: 361px;
+	margin-left: 1em;
+}
+section:nth-of-type(2) a:hover {
+	font-size: 17px;
+}
+
+section:nth-of-type(2) {
+	padding: 0.9em;
+}
+
+@keyframes button-animation {
+	0% {
+	rotate: 0deg;
+}
+	100% {
+	rotate: 360deg;
+	}
+}
+
+a[aria-label="Bekijk de kerstbomen voor de allerlaagste prijs"]:hover {
+  animation-name: button-animation;
+  animation-duration: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Categorieën ul */
+section:nth-of-type(2) ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	justify-content: space-between;
+	height: 9em;
+}
+
+section:nth-of-type(2) li {
+	width: 5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* Categorieën img */
+section:nth-of-type(2) {
+	background: #F3F4F6;
+}
+
+section:nth-of-type(2) img {
+    width: 4.5em;
+	border-radius: 50%;
+}
+/* Categorieën h2 */
+section:nth-of-type(2) h2 {
+	color: #001489;
+}
+/* Categorieën p */
+section:nth-of-type(2) p {
+	color: #001489;
+	text-wrap: wrap;
+	text-align: center;
+	height: 1em;
+	font-size: small;
+  	font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Weekactie h2*/
+section:nth-of-type(3) {
+	padding: 1em;
+}
+
+section:nth-of-type(3) ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1em;
+	padding-bottom: 2em;
+}
+
+section:nth-of-type(3) a {
+	width: fit-content;
+	text-align: center;
+}
+
+section:nth-of-type(3) h2 {
+	color: #001489;
+	margin-top: 2rem;
+	margin-bottom: auto;
+}
+
+section:nth-of-type(3) h3 {
+	color: #001489;
+	font-size: small;
+}
+
+section:nth-of-type(3) 
+article:nth-of-type(2) 
+p:nth-of-type(3) {
+	padding-top: 15px;
+}
+
+/* Weekactie p*/
+section:nth-of-type(3) p {
+	color: #5a5a5a;
+	margin-top: auto;
+	margin-bottom: 1em;
+	font-size: small;
+}
+
+/* Weekactie 1e container */
+section:nth-of-type(3) article {
+	border: 3px solid #e8e8e8;
+	overflow: hidden;
+	background-color: #fff;
+	height: 20em;
+}
+section:nth-of-type(3) article:hover {
+	border: 3px solid rgb(137, 137, 137);
+}
+section:nth-of-type(3) article:active {
+	border: 3px solid #001489;
+}
+
+section:nth-of-type(3) article:nth-of-type(1) p:nth-of-type(1) {
+	background-color: #FF8100;
+	color: #fff;
+	margin-right: 5em;
+	clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+	text-align: center;
+	font-size: 13px;
+  	padding: 4px;
+}
+
+section:nth-of-type(3) article:nth-of-type(1) img:nth-of-type(1) {
+	padding: 1em;
+}
+
+section:nth-of-type(3) a:nth-of-type(5) {
+	color: #fff;
+	background-color: #FF8100;
+	padding: 0.5em;
+	border-radius: 50px;
+}
+
+article p:nth-of-type(3) {
+	color: #ff8100;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 1em;
+}
+
+section:nth-of-type(3) a:nth-of-type(5) {
+    color: #fff;
+	background-color: #FF8100;
+}
+
+section:nth-of-type(3) > a {
+	background-color: #ff8100;
+	padding: 0.8em 1em;
+	color: #fff;
+	border-radius: 50px;
+	margin-left: 4em;
+}
+section:nth-of-type(3) > a:hover {
+	background-color: #ffba74;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Gezien op Instagram */
+section:nth-of-type(4) {
+	padding: 1em;
+}
+
+section:nth-of-type(4) ul {
+	display: flex;
+	overflow-x: scroll;
+}
+
+section:nth-of-type(4) img,
+section:nth-of-type(4) video {
+	width: auto;
+	height: 20vh;
+	max-width: 100vw;
+	padding: 0.5em;
+}
+
+section:nth-of-type(4) h2 {
+	color: #001489;
+	padding-top: 2em;
+}
+/* Gezien op Instagram */
+section:nth-of-type(4) p {
+	color: rgb(90, 90, 90);
+}
+
+section:nth-of-type(4) > a p {
+	color: #fff;
+	background-color: #ff8100;
+	font-weight: initial;
+	text-align: center;
+	padding: 0.8em 1em;
+	margin: 3.5em 3.5em 1em;	
+	border-radius: 50px;
+	margin-top: 1em;
+}
+section:nth-of-type(4) > a:hover p {
+	background-color: #ffba74;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* Nieuws  */
+section:nth-of-type(5) h2 {
+	color: #001489;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+}
+
+section:nth-of-type(5) h3 {
+	color: #001489;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+section:nth-of-type(5) img {
+  	padding: 1em 1em 1em 1em;
+}
+
+section:nth-of-type(5) p {
+	color: rgb(90, 90, 90);
+  	padding: 1em 1em 2em 1em;
+}
+
+section:nth-of-type(5) a {
+	padding: 0.8em;
+	background-color: #ff8100;
+	margin-left: 1em;
+	color: #fff;
+	border-radius: 50px;
+}
+section:nth-of-type(5) a:hover {
+	background-color: #ffba74;
+	color: black;
+}
+
+section:nth-of-type(5) article:nth-of-type(1) {
+	background-color: #F3F4F6;
+	padding-bottom: 3em;
+}
+
+section:nth-of-type(5) article:nth-of-type(2) {
+	padding-bottom: 3em;
+}
+
+section:nth-of-type(5) article:nth-of-type(3) {
+	background-color: #F3F4F6;
+	padding-bottom: 3em;
+}
+
+
+
+
+
+/* Footer  */
+footer {
+	background-color: #001489;
+	color: #fff;
+	padding: 2em 1em;
+}
+
+footer p {
+	color: #fff;
+}
+
+footer p:nth-of-type(1) {
+	padding-bottom: 0.5em;
+}
+
+footer section:nth-of-type(1) {
+	padding-top: 1em;
+}
+
+button {
+	border: none;
+	border-radius: 2em;
+	color: #fff;
+	background-color: #FF8100;
+	padding: 1em;
+}
+
+footer section:nth-of-type(2) ul {
+	color: #fff;
+
+}
+
+
+
+
+
+
+/* E-mailadres nieuwsbrief  */
+footer form {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+footer input:invalid {
+	border: 2px solid #ff0000;
+}
+footer input:valid {
+	border: 2px solid #008000;
+}
+
+footer button {
+	border: none;
+	border-radius: 2em;
+	color: #fff;
+	background-color: #FF8100;
+	padding: 1em;
+}
+footer button:hover {
+	background-color: #ffba74;
+	color: black;
+}
+
+footer section:nth-of-type(1) {
+	z-index: 1;
+}
